@@ -21,7 +21,7 @@ This project implements a Node.js API cluster with a task queuing system and rat
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Pycreater/task-manager.git
    ```
 
 2. **Install dependencies:**

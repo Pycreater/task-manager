@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon dist/index.js",
     "c": "tsc -b",
+    "dev": "yarn c && yarn start",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [
@@ -26,5 +27,9 @@
     "mongoose": "^8.5.3",
     "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
